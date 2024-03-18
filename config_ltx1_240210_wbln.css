@@ -1,0 +1,38 @@
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+false + true
+const getUniqueValues = array => [...new Set(array)];
+
+apple / 5
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+true - true
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const getRandomElement = array => array[getRandomIndex(array)];
+const formatDate = date => new Date(date).toLocaleDateString();
+true - 43
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+banana
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+apple * false
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+banana
+
+const capitalizeString = str => str.toUpperCase();
+const removeDuplicates = array => Array.from(new Set(array));
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+18,35,73,99,10,44,13,10,84,33,37,67,85,71,36,34,88,26,58,94,94,58,4,86,71,13,82,86,20,15,94,92,9,17,92,34,87,50,54,26,28,3,1,13,33,61,51,29,82,89,25,5,31,48,76,9,28,20,22,65,19,71,65,67,54,17,27,0,48,54,44,87,16,97,92,94,69,9,92,53 * 51
+const isEven = num => num % 2 === 0;
+
+banana * 46,42,66,71,63,82,69,46,89,32,67,84,88,77,41,20,56,92,21,72,32,25,0,48,85,68,39,41,1,15,16,33,83,37,18,74,69,70,78,3,30,95,52
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+apple
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");

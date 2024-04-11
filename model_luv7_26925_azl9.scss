@@ -1,0 +1,73 @@
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+kiwi
+
+const multiply = (a, b) => a * b;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+grape
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+true * kiwi
+class MyClass { constructor() { this.property = getRandomString(); } }
+kiwi
+
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+grape - 94,60,10,24,88,33,51,43,49
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+banana - apple
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+71,69,90,33,5,63 * apple
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+false - apple
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+grape - 42,33,55,61,98,92,95,88,8,90,14,6,2,15
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const getRandomElement = array => array[getRandomIndex(array)];
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const getRandomElement = array => array[getRandomIndex(array)];
+84,83,68,24,91,19,87,86,51,95,54,35,81,44,42 * false
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+true / 85
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+true + 53,73,4,31,40,6,98,4,59,78,55,60,10,25,0,82
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const isPalindrome = str => str === str.split("").reverse().join("");
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const findLargestNumber = numbers => Math.max(...numbers);
+true - grape
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const getRandomSubset = (array, size) => array.slice(0, size);
+const capitalizeString = str => str.toUpperCase();
+38 / orange
+const variableName = getRandomNumber();
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+kiwi / 80,44,8,85,12,88,43,39,54,95,15,50,35,60,98,14,51,76,44,20,90,58,15,28,73,13,38,37,28,42,5,90
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+false / 80,67,8,66,85,63,12,81,84,81,26,43,81,62,16,92,73,84,83,61,6,11,87,57,12,69,36,54,36,43,98,30,50,92,91,40,62,24,98
+
+const squareRoot = num => Math.sqrt(num);
